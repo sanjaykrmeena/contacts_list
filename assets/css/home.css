@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#list {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#contact {
+    margin: 0;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: antiquewhite;
+}
+
+.details {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+
+.delete-btn {
+    text-align: center;
+    margin-top: 15px;
+    width: 10%;
+    padding-bottom: 10px;
+}
+
+.delete-btn > a > i {
+    color: gray;
+}
+
+.delete-btn > a > i:hover {
+    color: red;
+}
+
+#contact:hover {
+    background-color: aquamarine;
+}
+
+#form {
+    text-align: center;
+}
+
+#input {
+    /* text-align: center; */
+    margin-bottom: 10px;
+    height: 35px;
+    width: 300px;
+    font-size: medium;
+}
+
+#btn {
+    font-size: medium;
+    height: 35px;
+    width: 120px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px 2px grey;
+}
